@@ -1,0 +1,19 @@
+{
+  "name": "react-native-mp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/JonatanSalas/react-native-mp.git",
+  "author": "jonatansalas <jonatansalas@live.com.ar>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonatanSalas/react-native-mp/issues"
+  },
+  "homepage": "https://github.com/JonatanSalas/react-native-mp#readme"
+}

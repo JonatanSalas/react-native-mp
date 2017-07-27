@@ -7,6 +7,9 @@
     "example": "example"
   },
   "scripts": {
+    "clean": "rimraf ./dist",
+    "compile": "babel ./src -d ./dist",
+    "build": "npm run clean && npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/JonatanSalas/react-native-mp.git",
@@ -15,5 +18,26 @@
   "bugs": {
     "url": "https://github.com/JonatanSalas/react-native-mp/issues"
   },
-  "homepage": "https://github.com/JonatanSalas/react-native-mp#readme"
+  "homepage": "https://github.com/JonatanSalas/react-native-mp#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-native": "^0.46.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.3",
+    "redux-saga": "^0.15.6",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-babili": "^0.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^2.1.0",
+    "babel-register": "^6.24.1"
+  }
 }
